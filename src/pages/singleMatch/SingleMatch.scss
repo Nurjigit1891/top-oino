@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.singleContent {
+    border-top: 10px solid rgb(0,29,93);
+    margin-top: 50px;
+}
+
+.verticalIconDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    .verticalIcon {
+        font-size: 42px !important;
+        color: rgb(0, 29, 93);
+
+        transition: all 0.4s ease;
+    }
+
+    .verticalIcon:hover {
+        transform: translateY(-10px);
+    }
+
+    
+}
+
+.singleMainDiv {
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px ;
+    padding-bottom: 20px;
+    width: 55%;
+
+}
+
+.singleData {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    position: relative;
+
+}
+
+.single-group {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+
+    
+    
+    
+    p {
+        font-weight:500;
+        margin-left: 5px;
+        font-size: 17px;
+        
+    }
+
+    span {
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+        color: rgb(0, 29, 93);
+
+    }
+}
+
+.advertisement {
+
+    img {
+        border-radius: 20px;
+        border: 3px solid black;
+        padding: 5px;
+        width: 250px;
+        height: 450px; /* Фиксированная высота */
+        object-fit: cover; /* Заполнение контейнера сохраняя пропорции */
+    }
+}
+
+.delete-block {
+    cursor: pointer;
+    transition: all 0.4s ease;
+    
+}
+
+.delete-block:hover {
+    text-decoration: underline;
+}
+
+.delete-info-block {
+    display: block;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 700px;
+    margin-left: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 600;
+
+    }
+
+    input {
+        appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid rgb(0,29,93);
+        background: rgba(rgb(0,29,93), .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: rgb(0,29,93);
+        width: 300px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .del-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        font-size: 16px;
+        padding: 8px;
+        background-color: rgb(0, 29, 93);
+        color: white;
+        border: 1px solid rgb(0, 29, 93);
+        font-weight: 700;
+  
+        transition: all 0.4s ease;
+    }
+  
+    .del-btn:hover {
+        color: rgb(0, 29, 93);
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .close-btn {
+        width: 300px;
+        font-size: 17px;
+        padding: 8px;
+        background-color: #fff;
+        color:rgb(0, 29, 93) ;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 29, 93);
+        font-weight: 700;
+        margin-bottom: 20px; 
+
+        transition: all 0.4s ease;
+    }
+
+    .close-btn:hover {
+        background-color: rgb(0, 29, 93);
+        color: white;
+        border-radius: 0px;
+    }
+  
+    
+}
+
+.delete-info-block-none {
+    display: none;
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+
+    .singleContent {
+        border-top: 10px solid rgb(0,29,93);
+        margin-top: 50px;
+    }
+    
+    .verticalIconDiv {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    
+        .verticalIcon {
+            font-size: 42px !important;
+            color: rgb(0, 29, 93);
+    
+            transition: all 0.4s ease;
+        }
+    
+        .verticalIcon:hover {
+            transform: translateY(-10px);
+        }
+    
+        
+    }
+    
+    .singleMainDiv {
+        padding-top: 20px;
+        margin-top: 20px;
+        padding-left: 20px;
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px ;
+        padding-bottom: 20px;
+        width: 100%;
+    
+    }
+    
+    .singleData {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .single-group {
+        display: flex;
+        align-items: center;
+    
+        margin-top: 20px;
+    
+        
+        
+        
+        p {
+            font-weight:500;
+            margin-left: 5px;
+            font-size: 17px;
+            
+        }
+    
+        span {
+            font-size: 20px;
+            margin-left: 10px;
+            font-weight: 600;
+            color: rgb(0, 29, 93);
+    
+        }
+    }
+    
+    .advertisement {
+        display: flex;
+        justify-content: space-between;
+    
+        img {
+            border-radius: 20px;
+            border: 3px solid black;
+            padding: 5px;
+            width: 150px;
+            height: 250px; /* Фиксированная высота */
+            object-fit: cover; /* Заполнение контейнера сохраняя пропорции */
+        }
+    }
+    
+    .delete-block {
+        cursor: pointer;
+        transition: all 0.4s ease;
+        
+    }
+    
+    .delete-block:hover {
+        text-decoration: underline;
+    }
+    
+    .delete-info-block {
+        display: block;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: auto;
+        margin-left: 0px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 600;
+    
+        }
+    
+        input {
+            appearance: none;
+            border: none;
+            outline: none;
+            border-bottom: .2em solid rgb(0,29,93);
+            background: rgba(rgb(0,29,93), .2);
+            border-radius: .2em .2em 0 0;
+            padding: .4em;
+            color: rgb(0,29,93);
+            width: 300px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .del-btn {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+            font-size: 16px;
+            padding: 8px;
+            background-color: rgb(0, 29, 93);
+            color: white;
+            border: 1px solid rgb(0, 29, 93);
+            font-weight: 700;
+      
+            transition: all 0.4s ease;
+        }
+      
+        .del-btn:hover {
+            color: rgb(0, 29, 93);
+            background-color: #fff;
+            border-radius: 10px;
+        }
+    
+        .close-btn {
+            width: 300px;
+            font-size: 17px;
+            padding: 8px;
+            background-color: #fff;
+            color:rgb(0, 29, 93) ;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 29, 93);
+            font-weight: 700;
+            margin-bottom: 20px; 
+    
+            transition: all 0.4s ease;
+        }
+    
+        .close-btn:hover {
+            background-color: rgb(0, 29, 93);
+            color: white;
+            border-radius: 0px;
+        }
+      
+        
+    }
+    
+    .delete-info-block-none {
+        display: none;
+    }
+
+
+    
+
+}
+@media screen and (min-width: 376px) and (max-width: 450px) {
+
+    .singleContent {
+        border-top: 10px solid rgb(0,29,93);
+        margin-top: 50px;
+    }
+    
+    .verticalIconDiv {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    
+        .verticalIcon {
+            font-size: 42px !important;
+            color: rgb(0, 29, 93);
+    
+            transition: all 0.4s ease;
+        }
+    
+        .verticalIcon:hover {
+            transform: translateY(-10px);
+        }
+    
+        
+    }
+    
+    .singleMainDiv {
+        padding-top: 20px;
+        margin-top: 20px;
+        padding-left: 20px;
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px ;
+        padding-bottom: 20px;
+        width: 100%;
+    
+    }
+    
+    .singleData {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .single-group {
+        display: flex;
+        align-items: center;
+    
+        margin-top: 20px;
+    
+        
+        
+        
+        p {
+            font-weight:500;
+            margin-left: 5px;
+            font-size: 17px;
+            
+        }
+    
+        span {
+            font-size: 20px;
+            margin-left: 10px;
+            font-weight: 600;
+            color: rgb(0, 29, 93);
+    
+        }
+    }
+    
+    .advertisement {
+        display: flex;
+        justify-content: space-between;
+    
+        img {
+            border-radius: 20px;
+            border: 3px solid black;
+            padding: 5px;
+            width: 150px;
+            height: 250px; /* Фиксированная высота */
+            object-fit: cover; /* Заполнение контейнера сохраняя пропорции */
+        }
+    }
+    
+    .delete-block {
+        cursor: pointer;
+        transition: all 0.4s ease;
+        
+    }
+    
+    .delete-block:hover {
+        text-decoration: underline;
+    }
+    
+    .delete-info-block {
+        display: block;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: auto;
+        margin-left: 0px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 600;
+    
+        }
+    
+        input {
+            appearance: none;
+            border: none;
+            outline: none;
+            border-bottom: .2em solid rgb(0,29,93);
+            background: rgba(rgb(0,29,93), .2);
+            border-radius: .2em .2em 0 0;
+            padding: .4em;
+            color: rgb(0,29,93);
+            width: 300px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .del-btn {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+            font-size: 16px;
+            padding: 8px;
+            background-color: rgb(0, 29, 93);
+            color: white;
+            border: 1px solid rgb(0, 29, 93);
+            font-weight: 700;
+      
+            transition: all 0.4s ease;
+        }
+      
+        .del-btn:hover {
+            color: rgb(0, 29, 93);
+            background-color: #fff;
+            border-radius: 10px;
+        }
+    
+        .close-btn {
+            width: 300px;
+            font-size: 17px;
+            padding: 8px;
+            background-color: #fff;
+            color:rgb(0, 29, 93) ;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 29, 93);
+            font-weight: 700;
+            margin-bottom: 20px; 
+    
+            transition: all 0.4s ease;
+        }
+    
+        .close-btn:hover {
+            background-color: rgb(0, 29, 93);
+            color: white;
+            border-radius: 0px;
+        }
+      
+        
+    }
+    
+    .delete-info-block-none {
+        display: none;
+    }
+
+
+    
+
+}
+

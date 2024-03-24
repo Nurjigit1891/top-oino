@@ -1,0 +1,316 @@
+.create-content {
+    border-top: 10px solid rgb(0,29,93);
+    margin-top: 50px;
+}
+
+.create-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 26px;
+    color: rgb(0,29,93);
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+    .form-group {
+      margin-bottom: 20px;
+      
+      
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+        color: rgb(0, 29, 93);
+        font-size: 25px;
+      }
+  
+      input,
+      textarea,
+      select {
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        width: 500px;
+        outline: none;
+        text-align: center;
+        font-weight: 600;
+        font-size: 19px;
+        letter-spacing: 1.5px ;
+
+      }
+
+      input {
+        appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid rgb(0,29,93);
+        background: rgba(rgb(0,29,93), .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: rgb(0,29,93);
+    }
+  
+      textarea {
+        resize: vertical;
+        border: 1px solid rgb(0, 29, 93);
+      }
+    }
+  
+
+  }
+  
+
+.line-group {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    
+    
+  }
+  .submit-button {
+      width: 500px;
+      font-size: 25px;
+      padding: 20px;
+      background-color: rgb(0, 29, 93);
+      color: white;
+      border: 1px solid rgb(0, 29, 93);
+
+      transition: all 0.4s ease;
+  }
+
+  .submit-button:hover {
+      color: rgb(0, 29, 93);
+      background-color: #fff;
+      border-radius: 10px;
+  }
+
+.submit-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .create-content {
+    border-top: 10px solid rgb(0,29,93);
+    margin-top: 50px;
+}
+
+.create-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 26px;
+    color: rgb(0,29,93);
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+    .form-group {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+
+      
+      
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+        color: rgb(0, 29, 93);
+        font-size: 25px;
+      }
+  
+      input,
+      textarea,
+      select {
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        width: auto;
+        outline: none;
+        text-align: center;
+        font-weight: 600;
+        font-size: 19px;
+        letter-spacing: 1.5px ;
+
+      }
+
+      input {
+        appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid rgb(0,29,93);
+        background: rgba(rgb(0,29,93), .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: rgb(0,29,93);
+    }
+  
+      textarea {
+        resize: vertical;
+        border: 1px solid rgb(0, 29, 93);
+      }
+    }
+  
+
+  }
+  
+
+.line-group {
+    display: flex;
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+
+    
+    
+  }
+  .submit-button {
+      width: 500px;
+      font-size: 25px;
+      padding: 20px;
+      background-color: rgb(0, 29, 93);
+      color: white;
+      border: 1px solid rgb(0, 29, 93);
+
+      transition: all 0.4s ease;
+  }
+
+  .submit-button:hover {
+      color: rgb(0, 29, 93);
+      background-color: #fff;
+      border-radius: 10px;
+  }
+
+.submit-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+}
+@media screen and (min-width: 376px) and (max-width: 450px) {
+  .create-content {
+    border-top: 10px solid rgb(0,29,93);
+    margin-top: 50px;
+}
+
+.create-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 26px;
+    color: rgb(0,29,93);
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+    .form-group {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+
+      
+      
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+        color: rgb(0, 29, 93);
+        font-size: 25px;
+      }
+  
+      input,
+      textarea,
+      select {
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        width: auto;
+        outline: none;
+        text-align: center;
+        font-weight: 600;
+        font-size: 19px;
+        letter-spacing: 1.5px ;
+
+      }
+
+      input {
+        appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid rgb(0,29,93);
+        background: rgba(rgb(0,29,93), .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: rgb(0,29,93);
+    }
+  
+      textarea {
+        resize: vertical;
+        border: 1px solid rgb(0, 29, 93);
+      }
+    }
+  
+
+  }
+  
+
+.line-group {
+    display: flex;
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+
+    
+    
+  }
+  .submit-button {
+      width: 500px;
+      font-size: 25px;
+      padding: 20px;
+      background-color: rgb(0, 29, 93);
+      color: white;
+      border: 1px solid rgb(0, 29, 93);
+
+      transition: all 0.4s ease;
+  }
+
+  .submit-button:hover {
+      color: rgb(0, 29, 93);
+      background-color: #fff;
+      border-radius: 10px;
+  }
+
+.submit-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+}
+

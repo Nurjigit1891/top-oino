@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+.container {
+  width: 1200px;
+  margin:  0 auto;
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .container {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 450px) {
+  .container {
+    width: 400px;
+  }
+}
